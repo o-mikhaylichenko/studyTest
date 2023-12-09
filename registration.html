@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Мой первый сайт</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -16,31 +19,31 @@
     <nav><a class="nav_link" href="index.html">Главная</a>
         <a class="nav_link" href="registration.html">Регистрация</a>
     </nav>
-    <h2>Регистрация</h2>
+    <h2 class="titleh2">Регистрация</h2>
     <form action="#">
-        <p>
+        <p class="paragraph">
             Имя <input class="input-name" type="text" placeholder="Иван" required autofocus>
         </p>
-        <p>
+        <p class="paragraph">
             Фамилия <input class="input-surname" type="text" placeholder="Иванов" required>
         </p>
-        <p>
+        <p class="paragraph">
             Электронная почта <input type="email" placeholder="mail@amekdi.ru" required>
         </p>
-        <p>
+        <p class="paragraph">
             Пароль <input type="password" minlength="8" maxlength="15" required>
         </p>
-        <p>
+        <p class="paragraph">
             Подтверждение пароля <input type="password" minlength="8" maxlength="15" required> 
         </p>
-        <p>
+        <p class="paragraph">
             Дата рождения <input type="date">
         </p>
-        <p>
+        <p class="paragraph">
             Пол М <input type="radio" name="gender" checked> Ж <input type="radio" name="gender"> Другое <input
                 type="radio" name="gender">
         </p>
-        <p>
+        <p class="paragraph">
             Подписка на новости<br>
             <label><input type="checkbox"> Ваш город</label><br>
             <label><input type="checkbox"> Афиша</label><br>
@@ -48,10 +51,11 @@
             <label><input type="checkbox"> Происшествия</label><br>
             <label><input type="checkbox" checked> Погода</label>
         </p>
-        <p>
+        <p class="paragraph">
             <button type="submit">Отправить</button>
         </p>
     </form>  
+    <footer class="podval">Все права защищены 2023</footer>
 </body>
 
 </html>

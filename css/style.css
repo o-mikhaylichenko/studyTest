@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+  margin-bottom: 24px;  
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav_link {
+    color: brown;
+    font-style: italic;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    background-color: rgba(0, 200, 0, 100);
+}
+
+.titleh2 {
+    color: orangered;
+    text-align: left;
+    font-weight: 700;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.titleh3 {
+    text-align: left;
+    background-color: grey;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.input-name {
+    background: yellow;
+}
+
+.input-surname {
+    background: yellow;
+}
+
+.podval {
+background-color: rgba(0, 200, 0, 10);
+margin-top: 24px;
+margin-bottom: 24px;
+}
